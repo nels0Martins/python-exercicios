@@ -1,0 +1,6 @@
+print()
+custo = float(input("Digite o o custo do espetáculo teatral: "))
+convite = float(input("Digite o preço do convite: "))
+vendas = int(custo/convite)
+print(f"Para cobrir o custo do espetáculo deverão ser vendidos {vendas} convites a R${convite :.2f}!")
+print()

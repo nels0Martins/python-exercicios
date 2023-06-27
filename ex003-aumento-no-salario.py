@@ -1,0 +1,5 @@
+print()
+sal = float(input("Digite o seu salário: "))
+aum = sal + (sal*25/100)
+print(f"Você recebeu um aumento de 25% no seu salário, agora ele passa a ser R${aum :.2f}!")
+print()

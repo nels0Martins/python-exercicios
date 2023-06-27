@@ -1,0 +1,7 @@
+print()
+p = float(input("Digite seu peso: "))
+en = p + (p*15/100)
+em = p - (p*20/100)
+print(f"Engordando 15% seu peso será de {en :.1f}kg's!")
+print(f"Emagrecendo 20% seu peso será de {em :.1f}kg's!")
+print()
